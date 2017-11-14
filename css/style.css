@@ -39,10 +39,13 @@ header a h1:hover{
 }
 
 /*estilos para la tabla*/
+center{
+    margin: 10px;
+    
+}
 .board {
-    margin: 10px; 
     background-color: white;
-    padding: 10px;
+    border-collapse: collapse;
 }
 .board-rows td {
     width: 100px;
@@ -50,7 +53,7 @@ header a h1:hover{
     color: black;
     border: 2px solid black;
     text-align: center;
-    border-collapse: collapse;
+    margin: 10px;
     font-size: 55px;
 }
 /*estilos para los botones*/
